@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "automock": true,
+    "unmockedModulePathPatterns": [
+      "lodash"
+    ]
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

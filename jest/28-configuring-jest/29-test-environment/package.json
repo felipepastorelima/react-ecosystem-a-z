@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest-environment-node": "^24.8.0"
+  }
+}

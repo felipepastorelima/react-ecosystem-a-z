@@ -1,0 +1,10 @@
+{
+  "name": "13-using-with-mongodb",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@shelf/jest-mongodb": "^1.1.0",
+    "jest": "^24.8.0"
+  }
+}

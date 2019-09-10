@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1565721536458" clover="3.2.0">
+  <project timestamp="1565721536458" name="All files">
+    <metrics statements="11" coveredstatements="10" conditionals="10" coveredconditionals="7" methods="6" coveredmethods="5" elements="27" coveredelements="22" complexity="0" loc="11" ncloc="11" packages="2" files="3" classes="3"/>
+    <package name="6-collect-coverage">
+      <metrics statements="6" coveredstatements="5" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="3"/>
+      <file name="utils-1.js" path="/Users/felipe/code/react-ecosystem-a-z/pt-br/jest/28-configuring-jest/6-collect-coverage/utils-1.js">
+        <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="utils-2.js" path="/Users/felipe/code/react-ecosystem-a-z/pt-br/jest/28-configuring-jest/6-collect-coverage/utils-2.js">
+        <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="6-collect-coverage.__tests__">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="sum.t.js" path="/Users/felipe/code/react-ecosystem-a-z/pt-br/jest/28-configuring-jest/6-collect-coverage/__tests__/sum.t.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

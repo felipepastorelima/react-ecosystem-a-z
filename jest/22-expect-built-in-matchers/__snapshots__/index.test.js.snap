@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`toMatchSnapshot: Person snapshot 1`] = `
+Object {
+  "age": Any<Number>,
+  "name": "Felipe",
+}
+`;
+
+exports[`toThrowErrorMatchingSnapshot : Boom Snapshot 1`] = `"Boom"`;

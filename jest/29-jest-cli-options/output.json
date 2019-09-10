@@ -1,0 +1,202 @@
+{
+  "numFailedTestSuites": 3,
+  "numFailedTests": 3,
+  "numPassedTestSuites": 6,
+  "numPassedTests": 6,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 9,
+  "numTotalTests": 9,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 1,
+    "total": 1,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1566410936449,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: error\n    at Object.<anonymous>.test (/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/error-1.test.js:2:9)\n    at Object.asyncJestTest (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at resolve (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:43:12)\n    at new Promise (<anonymous>)\n    at mapper (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at promise.then (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:73:41)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)"
+          ],
+          "fullName": "error",
+          "location": null,
+          "status": "failed",
+          "title": "error"
+        }
+      ],
+      "endTime": 1566410940629,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1merror\u001b[39m\u001b[22m\n\n    error\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 1 | \u001b[39mtest(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 2 | \u001b[39m  \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"error\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m        \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous>.test (\u001b[2m\u001b[0m\u001b[36m__tests__/error-1.test.js\u001b[39m\u001b[0m\u001b[2m:2:9)\u001b[2m\u001b[22m\n",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/error-1.test.js",
+      "startTime": 1566410938623,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: error\n    at Object.<anonymous>.test (/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/error-2.test.js:2:9)\n    at Object.asyncJestTest (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at resolve (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:43:12)\n    at new Promise (<anonymous>)\n    at mapper (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at promise.then (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:73:41)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)"
+          ],
+          "fullName": "error",
+          "location": null,
+          "status": "failed",
+          "title": "error"
+        }
+      ],
+      "endTime": 1566410940660,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1merror\u001b[39m\u001b[22m\n\n    error\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 1 | \u001b[39mtest(\u001b[32m\"error\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 2 | \u001b[39m  \u001b[36mthrow\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mError\u001b[39m(\u001b[32m\"error\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m        \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous>.test (\u001b[2m\u001b[0m\u001b[36m__tests__/error-2.test.js\u001b[39m\u001b[0m\u001b[2m:2:9)\u001b[2m\u001b[22m\n",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/error-2.test.js",
+      "startTime": 1566410938610,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected\u001b[39m\n\u001b[31m+ Received\u001b[39m\n\n\u001b[2m  Object {\u001b[22m\n\u001b[32m-   \"foo\": \"bar\",\u001b[39m\n\u001b[31m+   \"bar\": \"foo\",\u001b[39m\n\u001b[2m  }\u001b[22m\n    at Object.toEqual (/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/diff.test.js:2:26)\n    at Object.asyncJestTest (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)\n    at resolve (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:43:12)\n    at new Promise (<anonymous>)\n    at mapper (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:26:19)\n    at promise.then (/Users/felipe/.nvm/versions/node/v8.14.0/lib/node_modules/jest/node_modules/jest-jasmine2/build/queueRunner.js:73:41)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:189:7)"
+          ],
+          "fullName": "diff",
+          "location": null,
+          "status": "failed",
+          "title": "diff"
+        }
+      ],
+      "endTime": 1566410940725,
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mdiff\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    \u001b[32m- Expected\u001b[39m\n    \u001b[31m+ Received\u001b[39m\n\n    \u001b[2m  Object {\u001b[22m\n    \u001b[32m-   \"foo\": \"bar\",\u001b[39m\n    \u001b[31m+   \"bar\": \"foo\",\u001b[39m\n    \u001b[2m  }\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 1 | \u001b[39mtest(\u001b[32m\"diff\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 2 | \u001b[39m  expect({ bar\u001b[33m:\u001b[39m \u001b[32m\"foo\"\u001b[39m })\u001b[33m.\u001b[39mtoEqual({ foo\u001b[33m:\u001b[39m \u001b[32m\"bar\"\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m   | \u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 | \u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 4 | \u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.toEqual (\u001b[2m\u001b[0m\u001b[36m__tests__/diff.test.js\u001b[39m\u001b[0m\u001b[2m:2:26)\u001b[2m\u001b[22m\n",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/diff.test.js",
+      "startTime": 1566410938696,
+      "status": "failed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "snapshot",
+          "location": null,
+          "status": "passed",
+          "title": "snapshot"
+        }
+      ],
+      "endTime": 1566410941064,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/snapshot.test.js",
+      "startTime": 1566410940739,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "b",
+          "location": null,
+          "status": "passed",
+          "title": "b"
+        }
+      ],
+      "endTime": 1566410941107,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/b.test.js",
+      "startTime": 1566410940824,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "custom-spec-name",
+          "location": null,
+          "status": "passed",
+          "title": "custom-spec-name"
+        }
+      ],
+      "endTime": 1566410941148,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/custom.test.js",
+      "startTime": 1566410940860,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "a",
+          "location": null,
+          "status": "passed",
+          "title": "a"
+        }
+      ],
+      "endTime": 1566410941403,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/a.test.js",
+      "startTime": 1566410941078,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "ok",
+          "location": null,
+          "status": "passed",
+          "title": "ok"
+        }
+      ],
+      "endTime": 1566410941439,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/ok.test.js",
+      "startTime": 1566410941119,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "failureMessages": [],
+          "fullName": "window",
+          "location": null,
+          "status": "passed",
+          "title": "window"
+        }
+      ],
+      "endTime": 1566410941462,
+      "message": "",
+      "name": "/Users/felipe/code/react-ecosystem-a-z/en/jest/29-jest-cli-options/__tests__/window.test.js",
+      "startTime": 1566410941161,
+      "status": "passed",
+      "summary": ""
+    }
+  ],
+  "wasInterrupted": false
+}

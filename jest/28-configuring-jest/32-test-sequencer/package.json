@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@jest/test-sequencer": "^24.8.0"
+  }
+}
