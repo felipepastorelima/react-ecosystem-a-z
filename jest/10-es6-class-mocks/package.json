@@ -10,7 +10,7 @@
     "jest-get-type": "^24.8.0",
     "jest-validate": "^24.8.0",
     "jest-worker": "^24.6.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "pretty-format": "^24.8.0"
   }
 }
